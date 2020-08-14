@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<!-- Home Page -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+		<priority>
+			0.9
+		</priority>
+	</url>
+	<!-- Services Page -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/services/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+		<priority>
+			0.8
+		</priority>
+	</url>
+	<!-- Services - Website -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/services/website/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+	</url>
+	<!-- Services - SaaS -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/services/saas/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+	</url>
+	<!-- Services - E-Commerce -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/services/e-commerce/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+	</url>
+	<!-- Services - Custom Solutions -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/services/custom-solutions/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+	</url>
+	<!-- About Us Page -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/about/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+		<priority>
+			0.7
+		</priority>
+	</url>
+	<!-- Contact Us Page -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/contact/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+		<priority>
+			0.6
+		</priority>
+	</url>
+	<!-- Works Page -->
+	<url>
+		<loc>
+			http://www.mayfantasy.com/works/
+		</loc>
+		<lastmod>
+			2020-08-15
+		</lastmod>
+		<changefreq>
+			weekly
+		</changefreq>
+		<priority>
+			0.5
+		</priority>
+	</url>
+</urlset>

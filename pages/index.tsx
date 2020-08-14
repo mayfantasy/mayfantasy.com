@@ -1,3 +1,5 @@
+import Layout from 'components/Layout'
+
 const HomePage = () => {
   return (
     <>
@@ -6,9 +8,11 @@ const HomePage = () => {
           background-color: yellow;
         }
       `}</style>
-      <div className="home-page">
-        Home Page<p>test</p>
-      </div>
+      <Layout htmlTitle="Home | Mayfantasy">
+        <div className="home-page">
+          Home Page<p>test</p>
+        </div>
+      </Layout>
     </>
   )
 }
