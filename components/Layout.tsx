@@ -25,7 +25,7 @@ const Layout = (props: IProps) => {
           }
         />
       </Head>
-      <div className="layout">
+      <div className="layout container mx-auto px-4">
         <div>Header</div>
         <div>{children}</div>
         <ul>
