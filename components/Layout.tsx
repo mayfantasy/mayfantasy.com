@@ -1,4 +1,5 @@
-import { Head } from 'next/document'
+// import { Head } from 'next/document'
+import Head from 'next/head'
 
 interface IProps {
   children: React.ReactNode
