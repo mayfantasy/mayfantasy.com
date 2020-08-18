@@ -8,10 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.2",
-    "@zeit/next-typescript": "^1.1.1",
-    "node-sass": "^4.14.1",
+    "@emotion/core": "^10.0.34",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@types/lodash": "^4.14.159",
     "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "lodash": "^4.17.20",
+    "next": "9.5.2",
+    "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },

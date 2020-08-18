@@ -45,5 +45,15 @@ export const pageRoutues = {
     name: 'Works',
     key: 'works',
     url: '/works'
+  },
+  privacyPage: {
+    name: 'Privacy Statement',
+    key: 'privacy',
+    url: '/privacy-statememt'
+  },
+  termsPage: {
+    name: 'Terms of Use',
+    key: 'terms',
+    url: '/terms-of-use'
   }
 }

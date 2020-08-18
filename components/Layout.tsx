@@ -1,5 +1,9 @@
 // import { Head } from 'next/document'
 import Head from 'next/head'
+import Header from './Header'
+import Footer from './Footer'
+import _ from 'lodash'
+import CopyrightLine from './CopyrightLine'
 
 interface IProps {
   children: React.ReactNode
@@ -25,10 +29,15 @@ const Layout = (props: IProps) => {
           }
         />
       </Head>
+
       <div className="layout container mx-auto px-4">
-        <div>Header</div>
+        <Header />
+
         <div>{children}</div>
-        <ul>
+        {/* {_.range(100).map((t) => (
+          <h1 key={t}>Placeholder</h1>
+        ))} */}
+        {/* <ul>
           <li>Create unique, accurate page titles and page descriptions</li>
           <li>Use heading tags to emphasize important text (Symentic HTML)</li>
           <li>Using ‘breadcrumb lists'</li>
@@ -37,8 +46,13 @@ const Layout = (props: IProps) => {
           <li>Make your site mobile-friendly</li>
           <li>Promote your website on Google My Business</li>
           <li>Use Google analytics</li>
-        </ul>
-        <div>Footer</div>
+        </ul> */}
+        <div>
+          <Footer />
+        </div>
+        <div>
+          <CopyrightLine />
+        </div>
       </div>
     </>
   )
