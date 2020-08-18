@@ -2,6 +2,7 @@ import Layout from 'components/Layout'
 import Title from 'components/Title'
 import ContentBlock from 'components/ContentBlock'
 import ContactLine from 'components/ContactLine'
+import ServicePartners from 'components/ServicePartners'
 
 const HomePage = () => {
   return (
@@ -125,9 +126,10 @@ const HomePage = () => {
           </section>
 
           {/* Service Parners */}
-          <section>
+          <section className="mb-16">
             <Title>Service Partners</Title>
-            <p>...</p>
+            <br />
+            <ServicePartners />
           </section>
 
           {/* Our Work */}
