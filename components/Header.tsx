@@ -29,6 +29,7 @@ const Header = (props: IProps) => {
     <>
       <style jsx>{`
         .header {
+          z-index: 99;
           .header__nav-item {
             border-bottom: 3px solid transparent;
             &:hover {
