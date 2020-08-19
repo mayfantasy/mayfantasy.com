@@ -14,8 +14,16 @@ const Works = () => {
       src: '/tedacar-screenshot.png'
     },
     {
+      name: 'City High School',
+      src: '/city-high-school-screenshot.png'
+    },
+    {
       name: 'Start Your Engine Club',
       src: '/startyourengine-screenshot.png'
+    },
+    {
+      name: 'Harley Hardy',
+      src: '/harley-hardy-screenshot.png'
     },
     {
       name: 'Monfent CMS',
@@ -47,10 +55,28 @@ const Works = () => {
         }
       `}</style>
       <div className="flex flex-row flex-wrap works">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div
             key={item.name}
-            className="w-1/4 works__item transition-all duration-300 ease-in-out cursor-pointer overflow-hidden text-center p-2 bg-black"
+            className={`
+            w-1/4
+            works__item
+            transition-all
+            duration-300
+            ease-in-out
+            cursor-pointer
+            overflow-hidden
+            text-center
+            py-2
+            ${
+              (index + 1) % 4 === 1
+                ? 'pl-2 pr-1'
+                : (index + 1) % 4 === 0
+                ? 'pl-1 pr-2'
+                : 'px-1'
+            }
+            bg-black
+            `}
           >
             <div className="relative">
               <img

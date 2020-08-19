@@ -37,7 +37,7 @@ const Layout = (props: IProps) => {
         {/* {_.range(100).map((t) => (
           <h1 key={t}>Placeholder</h1>
         ))} */}
-        <ul>
+        {/* <ul>
           <li>Works section position issue with header</li>
           <li>Contact Us Page</li>
           <li>Content Redo</li>
@@ -52,7 +52,7 @@ const Layout = (props: IProps) => {
           <li>Make your site mobile-friendly</li>
           <li>Promote your website on Google My Business</li>
           <li>Use Google analytics</li>
-        </ul>
+        </ul> */}
         <div>
           <Footer />
         </div>
