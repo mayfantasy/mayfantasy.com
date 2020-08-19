@@ -57,10 +57,14 @@ const Header = (props: IProps) => {
                     width: isSticked ? 60 : 100
                   }}
                 >
-                  <img
-                    src="/logo.png"
-                    className="w-full transition-all duration-150 ease-in-out"
-                  />
+                  <Link href={pageRoutues.homePage.url}>
+                    <a>
+                      <img
+                        src="/logo.png"
+                        className="w-full transition-all duration-150 ease-in-out"
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <nav
                   className={`header__nav flex flex-row ${

@@ -1,16 +1,28 @@
 import Layout from 'components/Layout'
+import HeroBanner from 'components/HeroBanner'
+import Services from 'components/Services'
 
 const ServicesPage = () => {
   return (
     <>
       <style jsx>{`
         .services-page {
-          background-color: yellow;
         }
       `}</style>
       <Layout htmlTitle="Services | Mayfantasy">
         <div className="services-page">
-          Services Page<p>test</p>
+          {/* Hero Banner */}
+          <HeroBanner
+            title="Services We Offer"
+            includeContact
+            src="/services-banner.png"
+          />
+
+          {/* Content */}
+          <Services />
+          <br />
+          <br />
+          <br />
         </div>
       </Layout>
     </>
