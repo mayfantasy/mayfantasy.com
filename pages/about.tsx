@@ -14,7 +14,7 @@ const AboutPage = () => {
           <HeroBanner
             title="Know More About Us"
             includeContact
-            src="/about-us-banner.png"
+            src="/banner/about-us-banner.png"
           />
           <br />
           {/* Content */}

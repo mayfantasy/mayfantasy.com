@@ -1,15 +1,15 @@
 const ServicePartners = () => {
   const items: string[] = [
-    '/google-cloud-logo.png', // Google Cloud
-    '/vercel-logo.png', // Vercel
-    '/next-logo.png', // NextJS
-    '/react-logo.png', // React
-    '/faunadb-logo.png', // FunaDB
-    '/mongo-logo.png', // MongoDB
-    '/shopify-logo.png', // Shopify
-    '/mailchimp-logo.png', // Mailchimp
-    '/zoho-logo.png', // Zoho
-    '/adobe-logo.png' // Adobe
+    '/logo/google-cloud-logo.png', // Google Cloud
+    '/logo/vercel-logo.png', // Vercel
+    '/logo/next-logo.png', // NextJS
+    '/logo/react-logo.png', // React
+    '/logo/faunadb-logo.png', // FunaDB
+    '/logo/mongo-logo.png', // MongoDB
+    '/logo/shopify-logo.png', // Shopify
+    '/logo/mailchimp-logo.png', // Mailchimp
+    '/logo/zoho-logo.png', // Zoho
+    '/logo/adobe-logo.png' // Adobe
   ]
   return (
     <div className="flex flex-row flex-wrap">

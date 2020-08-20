@@ -8,7 +8,7 @@ const Services = () => {
     content: string | React.ReactNode
   }> = [
     {
-      src: '/website-service.png',
+      src: '/service/website-service.png',
       title: 'Website Development',
       subtitle: 'From Design to Development',
       content: (
@@ -20,7 +20,7 @@ const Services = () => {
       )
     },
     {
-      src: '/saas-service.png',
+      src: '/service/saas-service.png',
       title: 'SaaS',
       subtitle: 'Software as a Service',
       content: (
@@ -32,7 +32,7 @@ const Services = () => {
       )
     },
     {
-      src: '/e-commerce-service.png',
+      src: '/service/e-commerce-service.png',
       title: 'E-Commerce',
       subtitle: 'Everything you need to make sales',
       content: (
@@ -44,7 +44,7 @@ const Services = () => {
       )
     },
     {
-      src: '/custom-service.png',
+      src: '/service/custom-service.png',
       title: 'Customized',
       subtitle: 'Fully Customized Digital Services',
       content: (

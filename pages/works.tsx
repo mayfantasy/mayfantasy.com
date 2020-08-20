@@ -12,7 +12,11 @@ const WorksPage = () => {
       <Layout htmlTitle="Works | Mayfantasy">
         <div className="works-page">
           {/* Hero Banner */}
-          <HeroBanner title="Our Work" includeContact src="/works-banner.png" />
+          <HeroBanner
+            title="Our Work"
+            includeContact
+            src="/banner/works-banner.png"
+          />
 
           {/* Content */}
           <Works />

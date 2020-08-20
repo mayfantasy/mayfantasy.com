@@ -15,7 +15,7 @@ const ServicesPage = () => {
           <HeroBanner
             title="Services We Offer"
             includeContact
-            src="/services-banner.png"
+            src="/banner/services-banner.png"
           />
 
           {/* Content */}

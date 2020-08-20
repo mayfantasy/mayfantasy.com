@@ -59,7 +59,7 @@ const ContactPage = () => {
           <HeroBanner
             title="Let us know what we can help"
             includeContact
-            src="/contact-us-banner.png"
+            src="/banner/contact-us-banner.png"
           />
           <br />
           <div>

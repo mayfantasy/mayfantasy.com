@@ -7,31 +7,31 @@ const Works = () => {
   const items: { name: string; src: string }[] = [
     {
       name: 'Veltro Development',
-      src: '/veltro-screenshot.png'
+      src: '/screenshot/veltro-screenshot.png'
     },
     {
       name: 'Ted A Car',
-      src: '/tedacar-screenshot.png'
+      src: '/screenshot/tedacar-screenshot.png'
     },
     {
       name: 'City High School',
-      src: '/city-high-school-screenshot.png'
+      src: '/screenshot/city-high-school-screenshot.png'
     },
     {
       name: 'Start Your Engine Club',
-      src: '/startyourengine-screenshot.png'
+      src: '/screenshot/startyourengine-screenshot.png'
     },
     {
       name: 'Harley Hardy',
-      src: '/harley-hardy-screenshot.png'
+      src: '/screenshot/harley-hardy-screenshot.png'
     },
     {
       name: 'Monfent CMS',
-      src: '/monfent-cms-screenshot.png'
+      src: '/screenshot/monfent-cms-screenshot.png'
     },
     {
       name: 'MF Digital Consult',
-      src: '/mayfantasy-screenshot.png'
+      src: '/screenshot/mayfantasy-screenshot.png'
     }
   ]
 
