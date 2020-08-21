@@ -29,6 +29,8 @@ const Layout = (props: IProps) => {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:url" content={pageAbsoluteUrl} />
+        <meta property="og:site_name" content="Mayfantasy" />
         <meta property="og:image" content="/logo.png" />
         <meta name="twitter:card" content={description}></meta>
         <link rel="canonical" href={pageAbsoluteUrl} />
