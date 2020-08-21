@@ -45,7 +45,13 @@ const Layout = (props: IProps) => {
         ))} */}
         {/* <ul>
           <li>Works section position issue with header</li>
-          <li>Content Redo</li>
+          <li>Steper section position issue with header</li>
+          <li>
+          Content Redo 
+          - Home page banner (done)
+          - Website part (done) 
+          - E-Commerce part...
+          </li>
         </ul>
         <br />
         <ul>

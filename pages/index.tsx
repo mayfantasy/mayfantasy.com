@@ -25,6 +25,7 @@ const HomePage = () => {
           {/* Hero Banner */}
           <HeroBanner
             title="Results-driven Creative Digital Agency"
+            tagline="We build modern websites, web applications and e-commerce products that help you shine.We build modern websites, web applications and e-commerce products that help you shine."
             includeContact
             src="/hero-image.png"
             alt="Home Page Banner"
@@ -35,22 +36,26 @@ const HomePage = () => {
             <Title>Who We Are ?</Title>
             <br />
             <p className="text-2xl py-8">
-              We are Toronto based digital agency specialized in
+              Mayfantasy is a Toronto based digital agency specialized in
               <br />
-              designing and developing{' '}
-              <strong>website, e-commerce and web applications.</strong>
+              building the highest industrial level{' '}
+              <strong>
+                websites, e-commerce products and web applications (SaaS)
+              </strong>
             </p>
           </section>
 
           {/* Services */}
           <section>
             <Title right>What We Do ?</Title>
+            <br />
             <Services />
           </section>
 
           {/* Service Parners */}
           <section className="mb-16">
             <Title>Service Partners</Title>
+            <br />
             <br />
             <ServicePartners />
           </section>

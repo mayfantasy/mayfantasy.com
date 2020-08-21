@@ -17,8 +17,10 @@ const Services = () => {
       content: (
         <p>
           Presence on the internet has become so important in the modern world.
-          Don’t have time to do all the tedious work? Don’t know where to start?
-          We are here to help you build the beautiful one.
+          That’s why we are here to help. We begin every project with rigorous
+          research and strategy to guide our design and development, so that we
+          can provide the right solutions and drive the best result for our
+          clients.
         </p>
       ),
       url: pageRoutues.serviceWebsitePage.url
