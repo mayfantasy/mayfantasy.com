@@ -12,9 +12,10 @@ const ServiceECommercePage = () => {
         <div className="service-e-commerce-page">
           {/* Hero Banner */}
           <HeroBanner
-            title="E-Commerce"
+            title="E-Commerce Solutions"
             includeContact
             src="/service/e-commerce-service.png"
+            alt="E-Commerce Solutions Service Banner"
           />
           <br />
           <article>

@@ -16,6 +16,7 @@ const ServicesPage = () => {
             title="Services We Offer"
             includeContact
             src="/banner/services-banner.png"
+            alt="All Services Banner"
           />
 
           {/* Content */}

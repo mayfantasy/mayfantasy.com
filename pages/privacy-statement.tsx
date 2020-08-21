@@ -16,6 +16,7 @@ const PrivacyPage = () => {
             title="Privacy Statement"
             includeContact
             src="/banner/privacy-banner.png"
+            alt="Privacy Statement Banner"
           />
           <br />
           {/* Content */}

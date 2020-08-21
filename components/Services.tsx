@@ -70,6 +70,7 @@ const Services = () => {
           right={index % 2 !== 0}
           key={item.title}
           src={item.src}
+          alt={item.title}
           content={
             <>
               <h2 className="text-3xl">

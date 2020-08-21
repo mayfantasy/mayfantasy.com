@@ -12,9 +12,10 @@ const ServiceSaasPage = () => {
         <div className="service-saas-page">
           {/* Hero Banner */}
           <HeroBanner
-            title="Service as a Software"
+            title="Service as a Software (SaaS)"
             includeContact
             src="/service/saas-service.png"
+            alt="Service as a Software Service Banner"
           />
           <br />
           <article>

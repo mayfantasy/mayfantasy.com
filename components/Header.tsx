@@ -62,6 +62,7 @@ const Header = (props: IProps) => {
                     <a>
                       <img
                         src="/logo.png"
+                        alt="Mayfantasy Logo"
                         className="w-full transition-all duration-150 ease-in-out"
                       />
                     </a>

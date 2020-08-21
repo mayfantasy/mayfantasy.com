@@ -60,6 +60,7 @@ const ContactPage = () => {
             title="Let us know what we can help"
             includeContact
             src="/banner/contact-us-banner.png"
+            alt="Contact Us Banner"
           />
           <br />
           <div>

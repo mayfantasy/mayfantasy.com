@@ -15,6 +15,7 @@ const AboutPage = () => {
             title="Know More About Us"
             includeContact
             src="/banner/about-us-banner.png"
+            alt="About Us Banner"
           />
           <br />
           {/* Content */}

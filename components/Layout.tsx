@@ -49,9 +49,7 @@ const Layout = (props: IProps) => {
           <li>Using ‘breadcrumb lists'</li>
           <li>Image tag use loading="lazy"</li>
           <li>Use brief but descriptive filenames and alt text</li>
-          <li>Make your site mobile-friendly</li>
           <li>Promote your website on Google My Business</li>
-          <li>Use Google analytics</li>
           <li>Do not duplicate meta descriptions</li>
           <li>SEO title can not be too short</li>
           <li>Pages should not have low word counts</li>

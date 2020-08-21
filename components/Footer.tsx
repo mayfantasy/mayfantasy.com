@@ -32,7 +32,12 @@ const Footer = (props: IProps) => {
         {/* Logo & Contact */}
         <div className="lg:w-1/2 mr-16 mb-16">
           <div className="footer__logo">
-            <img src="/logo.png" className="w-full" />
+            <img
+              loading="lazy"
+              alt="Mayfantasy Logo"
+              src="/logo.png"
+              className="w-full"
+            />
           </div>
           <br />
           <p>

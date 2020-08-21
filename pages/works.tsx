@@ -16,6 +16,7 @@ const WorksPage = () => {
             title="Our Work"
             includeContact
             src="/banner/works-banner.png"
+            alt="Works Banner"
           />
 
           {/* Content */}

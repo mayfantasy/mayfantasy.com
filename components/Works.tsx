@@ -81,6 +81,7 @@ const Works = () => {
             <div className="relative">
               <img
                 src={item.src}
+                alt={item.name}
                 className="w-full duration-300 ease-in-out cursor-pointer"
               />
               <div className="w-full h-full top-0 left-0 absolute hidden works__item-name text-white text-2xl">

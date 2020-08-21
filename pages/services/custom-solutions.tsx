@@ -15,6 +15,7 @@ const ServiceCustomSolutionsPage = () => {
             title="Custom Solutions"
             includeContact
             src="/service/custom-service.png"
+            alt="Customized Solutions Service Banner"
           />
           <br />
           <article>

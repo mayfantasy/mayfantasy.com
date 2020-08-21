@@ -16,6 +16,7 @@ const TermsPage = () => {
             title="Terms of Use"
             includeContact
             src="/banner/terms-banner.png"
+            alt="Terms of Use Banner"
           />
           <br />
           {/* Content */}

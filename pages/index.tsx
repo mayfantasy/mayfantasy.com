@@ -23,6 +23,7 @@ const HomePage = () => {
             title="Results-driven Creative Digital Agency"
             includeContact
             src="/hero-image.png"
+            alt="Home Page Banner"
           />
 
           {/* Introduction */}
