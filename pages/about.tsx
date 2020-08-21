@@ -54,9 +54,14 @@ const AboutPage = () => {
             </h2>
             <p>
               Technology: Cutting edge while stable, more control with less
-              dependencies Work: User experience focused, morden and functional
+              dependencies
+              <br />
+              Work: User experience focused, morden and functional
+              <br />
               Team: Young, passionate and experienced Service: first-rate
-              customer service, responsible throughout project life cycle
+              customer
+              <br />
+              service, responsible throughout project life cycle
             </p>
           </article>
           <br />

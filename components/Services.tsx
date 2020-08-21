@@ -1,4 +1,6 @@
 import ContentBlock from './ContentBlock'
+import { pageRoutues } from 'helpers/route.helpers'
+import Link from 'next/link'
 
 const Services = () => {
   const items: Array<{
@@ -6,6 +8,7 @@ const Services = () => {
     title: string
     subtitle: string
     content: string | React.ReactNode
+    url: string
   }> = [
     {
       src: '/service/website-service.png',
@@ -17,7 +20,8 @@ const Services = () => {
           Don’t have time to do all the tedious work? Don’t know where to start?
           We are here to help you build the beautiful one.
         </p>
-      )
+      ),
+      url: pageRoutues.serviceWebsitePage.url
     },
     {
       src: '/service/saas-service.png',
@@ -29,7 +33,8 @@ const Services = () => {
           save the labour? Our professionals can help you build the modern and
           functional services right for your business.
         </p>
-      )
+      ),
+      url: pageRoutues.serviceSaasPage.url
     },
     {
       src: '/service/e-commerce-service.png',
@@ -41,7 +46,8 @@ const Services = () => {
           Our experienced e-commerce experts will walk you through the whole
           process and help you build a solid business.
         </p>
-      )
+      ),
+      url: pageRoutues.serviceEcommercePage.url
     },
     {
       src: '/service/custom-service.png',
@@ -53,7 +59,8 @@ const Services = () => {
           experts are here to help you define, research and realize your digital
           dream, in a professional way.
         </p>
-      )
+      ),
+      url: pageRoutues.serviceCustomSolutions.url
     }
   ]
   return (
@@ -71,6 +78,14 @@ const Services = () => {
               <p className="text-gray-600">{item.subtitle}</p>
               <br />
               {item.content}
+              <br />
+              <div className="mb-4">
+                <Link href={item.url}>
+                  <button className="px-4 py-2 text-white outline-none bg-purple-700 hover:bg-opacity-75">
+                    Learn More
+                  </button>
+                </Link>
+              </div>
             </>
           }
         />

@@ -1,16 +1,39 @@
 import Layout from 'components/Layout'
+import HeroBanner from 'components/HeroBanner'
 
 const ServiceCustomSolutionsPage = () => {
   return (
     <>
       <style jsx>{`
         .service-custom-solutions-page {
-          background-color: yellow;
         }
       `}</style>
       <Layout htmlTitle="Custom Solutions | Mayfantasy">
         <div className="service-custom-solutions-page">
-          Custom Solutions Page<p>test</p>
+          {/* Hero Banner */}
+          <HeroBanner
+            title="Custom Solutions"
+            includeContact
+            src="/service/custom-service.png"
+          />
+          <br />
+          <article>
+            <p>
+              In the digital era, business are relying on more and more digital
+              services --- not just for broadcasting your business, but let the
+              latest technology help you build the long lasting empire.
+            </p>
+            <p>
+              If you have a dream, we can help. Our digital consultants are
+              happy to provide the most professional digital business solutions
+              that customized for you.
+            </p>
+            <p>Tell us your dream now and let us help you out.</p>
+          </article>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </Layout>
     </>

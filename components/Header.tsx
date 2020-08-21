@@ -68,13 +68,13 @@ const Header = (props: IProps) => {
                   </Link>
                 </div>
                 <nav
-                  className={`header__nav flex flex-row ${
+                  className={`header__nav flex flex-row text-sm lg:text-base ${
                     isSticked ? 'text-sm' : ''
                   }`}
                 >
                   {items.map((item) => (
                     <div
-                      className="header__nav-item mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
+                      className="header__nav-item mx-2 lg:mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
                       key={item.key}
                     >
                       <Link href={item.url}>

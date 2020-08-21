@@ -14,22 +14,22 @@ export const pageRoutues = {
   serviceWebsitePage: {
     name: 'Webiste',
     key: 'website',
-    url: '/website'
+    url: '/services/website'
   },
   serviceSaasPage: {
     name: 'Saas',
     key: 'saas',
-    url: '/saas'
+    url: '/services/saas'
   },
   serviceEcommercePage: {
     name: 'E-Commerce',
     key: 'e-commerce',
-    url: '/e-commerce'
+    url: '/services/e-commerce'
   },
   serviceCustomSolutions: {
     name: 'Custom Solutions',
     key: 'custom-solutions',
-    url: '/custom-solutions'
+    url: '/services/custom-solutions'
   },
   aboutPage: {
     name: 'About Us',
@@ -49,7 +49,7 @@ export const pageRoutues = {
   privacyPage: {
     name: 'Privacy Statement',
     key: 'privacy',
-    url: '/privacy-statememt'
+    url: '/privacy-statement'
   },
   termsPage: {
     name: 'Terms of Use',
