@@ -10,6 +10,7 @@ const WorksPage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/works/"
         htmlTitle="Our Work | Mayfantasy"
         htmlDescription="Check out our works of website, e-commerce and SaaS projects which we've been working on. Mayfantasy's top priority is client success."
       >

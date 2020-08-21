@@ -9,6 +9,7 @@ const ServiceECommercePage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/services/e-commerce/"
         htmlTitle="E-Commerce Development and Marketing Service | Mayfantasy"
         htmlDescription="Have an idea to sell products on a beautiful web store, Amazon and eBay? Our experienced e-commerce experts will walk you through the whole process and help you build a solid business."
       >

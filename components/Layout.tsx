@@ -9,10 +9,15 @@ interface IProps {
   children: React.ReactNode
   htmlTitle?: string
   htmlDescription?: string
+  pageAbsoluteUrl: string
 }
 
 const Layout = (props: IProps) => {
-  const { children, htmlTitle, htmlDescription } = props
+  const { children, htmlTitle, htmlDescription, pageAbsoluteUrl } = props
+  const title = htmlTitle || 'Mayfantasy'
+  const description =
+    htmlDescription ||
+    'Mayfantasy is a Toronto based digital agency specialized in producing top industrial level websites, e-commerce and web applications (SaaS).'
   return (
     <>
       <style jsx>{`
@@ -20,14 +25,13 @@ const Layout = (props: IProps) => {
         }
       `}</style>
       <Head>
-        <title>{htmlTitle || 'Mayfantasy'}</title>
-        <meta
-          name="description"
-          content={
-            htmlDescription ||
-            'Mayfantasy is a Toronto based digital agency specialized in producing top industrial level websites, e-commerce and web applications (SaaS).'
-          }
-        />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:image" content="/logo.png" />
+        <meta name="twitter:card" content={description}></meta>
+        <link rel="canonical" href={pageAbsoluteUrl} />
       </Head>
 
       <div className="layout container mx-auto px-4">

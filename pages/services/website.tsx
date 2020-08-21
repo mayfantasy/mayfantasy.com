@@ -9,6 +9,7 @@ const ServiceWebsitePage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/services/website/"
         htmlTitle="Website Design, Development and Hosting Service | Mayfantasy"
         htmlDescription="Website Presence on the internet has become so important in the modern world. Don’t have time to do all the tedious work? Don’t know where to start? We are here to help you build the beautiful one."
       >

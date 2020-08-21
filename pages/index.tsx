@@ -17,6 +17,7 @@ const HomePage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/"
         htmlTitle="Mayfantasy - Results-driven Creative Digital Agency"
         htmlDescription="Mayfantasy is a Toronto based digital agency specialized in producing top industrial level websites, e-commerce and web applications (SaaS)."
       >

@@ -10,6 +10,7 @@ const ServicesPage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/services/"
         htmlTitle="Website, E-Commerce, SaaS, and Customized Servcies | Mayfantasy"
         htmlDescription="Mayfantasy provides top industry level website design nad development, e-commerce development and marketing, web application development and customized development which suites special requirements."
       >

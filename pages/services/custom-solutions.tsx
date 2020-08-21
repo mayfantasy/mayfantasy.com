@@ -9,6 +9,7 @@ const ServiceCustomSolutionsPage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/services/custom-solutions/"
         htmlTitle="Custom Solutions for Your Business’es Unique Requirements | Mayfantasy"
         htmlDescription="If you have a dream, we can help. Our digital consultants are happy to provide the most professional digital business solutions that customized for you."
       >

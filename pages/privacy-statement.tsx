@@ -9,7 +9,11 @@ const PrivacyPage = () => {
         .privacy-page {
         }
       `}</style>
-      <Layout htmlTitle="Privacy Statement | Mayfantasy">
+      <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/privacy-statement/"
+        htmlTitle="Privacy Statement | Mayfantasy"
+        htmlDescription="mayfantasy.com is committed to protecting your privacy and developing technology that gives you the most powerful and safe online experience."
+      >
         <div className="privacy-page max-w-1000px m-auto">
           {/* Hero Banner */}
           <HeroBanner

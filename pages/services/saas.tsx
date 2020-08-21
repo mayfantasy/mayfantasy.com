@@ -9,8 +9,9 @@ const ServiceSaasPage = () => {
         }
       `}</style>
       <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/services/saas/"
         htmlTitle="Service as a Software (SaaS) Development | Mayfantasy"
-        htmlDescription="Our team is well experienced in the SaaS industry. From Strategic Planning, Requirement Gathering, to Grapic Design, Development, and to the final Testing and Publishing, we will provide the most professional services and use industrial leading tools and cutting edge technologies to keep our work at the highest industrial level."
+        htmlDescription="Our team is well experienced in the SaaS industry. From Strategic Planning, Requirement Gathering, to Grapic Design, Development, and to the final Test and Deployment, we provide the highest industrial level service."
       >
         <div className="service-saas-page">
           {/* Hero Banner */}
@@ -52,7 +53,7 @@ const ServiceSaasPage = () => {
                 <p>
                   Our team is well experienced in the SaaS industry. From
                   Strategic Planning, Requirement Gathering, to Grapic Design,
-                  Development, and to the final Testing and Publishing, we will
+                  Development, and to the final Test and Deployment, we will
                   provide the most professional services and use industrial
                   leading tools and cutting edge technologies to keep our work
                   at the highest industrial level.

@@ -9,7 +9,11 @@ const TermsPage = () => {
         .terms-page {
         }
       `}</style>
-      <Layout htmlTitle="Terms of Use | Mayfantasy">
+      <Layout
+        pageAbsoluteUrl="https://www.mayfantasy.com/terms-of-use/"
+        htmlTitle="Terms of Use | Mayfantasy"
+        htmlDescription="The mayfantasy.com Web Site is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein. Your use of the mayfantasy.com Web Site constitutes your agreement to all such terms, conditions, and notices."
+      >
         <div className="terms-page max-w-1000px m-auto">
           {/* Hero Banner */}
           <HeroBanner
