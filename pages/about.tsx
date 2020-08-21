@@ -10,7 +10,7 @@ const AboutPage = () => {
       `}</style>
       <Layout
         pageAbsoluteUrl="https://www.mayfantasy.com/about/"
-        htmlTitle="Top ranked website and e-commerce agency in Toronto | Mayfantasy"
+        htmlTitle="Top Ranked Website and E-Commerce Agency in Toronto | Mayfantasy"
         htmlDescription="Mayfantasy is a full stack digital agency located in Toronto. Our young, experienced, and passionate team delivers the world-class digital projects to help you thrive."
       >
         <div className="about-page">

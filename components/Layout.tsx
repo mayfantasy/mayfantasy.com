@@ -43,19 +43,11 @@ const Layout = (props: IProps) => {
         ))} */}
         {/* <ul>
           <li>Works section position issue with header</li>
-          <li>Contact Us Page</li>
           <li>Content Redo</li>
         </ul>
         <br />
         <ul>
-          <li>Create unique, accurate page titles and page descriptions</li>
-          <li>Use heading tags to emphasize important text (Symentic HTML)</li>
-          <li>Using ‘breadcrumb lists'</li>
-          <li>Image tag use loading="lazy"</li>
-          <li>Use brief but descriptive filenames and alt text</li>
           <li>Promote your website on Google My Business</li>
-          <li>Do not duplicate meta descriptions</li>
-          <li>SEO title can not be too short</li>
           <li>Pages should not have low word counts</li>
         </ul> */}
         <div>
