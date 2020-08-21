@@ -11,6 +11,20 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          {/* Global site tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-175964146-1"
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || []; function gtag()
+                {dataLayer.push(arguments)}
+                gtag('js', new Date()); gtag('config', 'UA-175964146-1');
+              `
+            }}
+          />
           <meta
             name="keywords"
             content="web, website development, website design, e-commerce development, online store design, digital solutions, web store development, toronto, html, css, javascript, react, react development"
