@@ -8,7 +8,10 @@ const AboutPage = () => {
         .about-page {
         }
       `}</style>
-      <Layout htmlTitle="Top ranked website and e-commerce agency in Toronto | Mayfantasy">
+      <Layout
+        htmlTitle="Top ranked website and e-commerce agency in Toronto | Mayfantasy"
+        htmlDescription="Mayfantasy is a full stack digital agency located in Toronto. Our young, experienced, and passionate team delivers the world-class digital projects to help you thrive."
+      >
         <div className="about-page">
           {/* Hero Banner */}
           <HeroBanner
@@ -22,7 +25,7 @@ const AboutPage = () => {
           <article>
             <p>
               Mayfantasy is a full stack digital agency located in Toronto. Our
-              young, experienced, and passionate team will deliver world-class
+              young, experienced, and passionate team delivers the world-class
               digital projects to help you thrive.
             </p>
             <br />

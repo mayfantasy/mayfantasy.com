@@ -16,7 +16,10 @@ const HomePage = () => {
           }
         }
       `}</style>
-      <Layout htmlTitle="Mayfantasy - Results-driven Creative Digital Agency">
+      <Layout
+        htmlTitle="Mayfantasy - Results-driven Creative Digital Agency"
+        htmlDescription="Mayfantasy is a Toronto based digital agency specialized in producing top industrial level websites, e-commerce and web applications (SaaS)."
+      >
         <div className="home-page">
           {/* Hero Banner */}
           <HeroBanner

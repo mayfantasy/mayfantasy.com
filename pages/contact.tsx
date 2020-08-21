@@ -53,7 +53,10 @@ const ContactPage = () => {
         .contact-page {
         }
       `}</style>
-      <Layout htmlTitle="Contact Us Now - Let us know what we can help | Mayfantasy">
+      <Layout
+        htmlTitle="Contact Us Now - Let us know what we can help | Mayfantasy"
+        htmlDescription="Are you looking for a digital agency based in Toronto at a compatible price? Email us: info@mayfantasy.com or Call us: 1-709-697-5510."
+      >
         <div className="contact-page">
           {/* Hero Banner */}
           <HeroBanner

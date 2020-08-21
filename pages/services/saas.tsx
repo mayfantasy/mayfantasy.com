@@ -8,7 +8,10 @@ const ServiceSaasPage = () => {
         .service-saas-page {
         }
       `}</style>
-      <Layout htmlTitle="Service as a Software (SaaS) Development | Mayfantasy">
+      <Layout
+        htmlTitle="Service as a Software (SaaS) Development | Mayfantasy"
+        htmlDescription="Our team is well experienced in the SaaS industry. From Strategic Planning, Requirement Gathering, to Grapic Design, Development, and to the final Testing and Publishing, we will provide the most professional services and use industrial leading tools and cutting edge technologies to keep our work at the highest industrial level."
+      >
         <div className="service-saas-page">
           {/* Hero Banner */}
           <HeroBanner

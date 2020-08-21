@@ -8,7 +8,10 @@ const ServiceECommercePage = () => {
         .service-e-commerce-page {
         }
       `}</style>
-      <Layout htmlTitle="E-Commerce Development and Marketing Service | Mayfantasy">
+      <Layout
+        htmlTitle="E-Commerce Development and Marketing Service | Mayfantasy"
+        htmlDescription="Have an idea to sell products on a beautiful web store, Amazon and eBay? Our experienced e-commerce experts will walk you through the whole process and help you build a solid business."
+      >
         <div className="service-e-commerce-page">
           {/* Hero Banner */}
           <HeroBanner

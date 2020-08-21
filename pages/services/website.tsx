@@ -8,7 +8,10 @@ const ServiceWebsitePage = () => {
         .service-website-page {
         }
       `}</style>
-      <Layout htmlTitle="Website Design, Development and Hosting Service | Mayfantasy">
+      <Layout
+        htmlTitle="Website Design, Development and Hosting Service | Mayfantasy"
+        htmlDescription="Website Presence on the internet has become so important in the modern world. Don’t have time to do all the tedious work? Don’t know where to start? We are here to help you build the beautiful one."
+      >
         <div className="service-website-page">
           {/* Hero Banner */}
           <HeroBanner

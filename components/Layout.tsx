@@ -25,7 +25,7 @@ const Layout = (props: IProps) => {
           name="description"
           content={
             htmlDescription ||
-            'Mayfantasy is Toronto based a digital solution studio specializing in website development, e-commerce, and web applications.'
+            'Mayfantasy is a Toronto based digital agency specialized in producing top industrial level websites, e-commerce and web applications (SaaS).'
           }
         />
       </Head>
