@@ -19,12 +19,7 @@ const ServicePartners = () => {
           style={{ height: 60 }}
           key={item.name}
         >
-          <img
-            loading="lazy"
-            alt={item.name}
-            src={item.src}
-            className="h-full"
-          />
+          <img alt={item.name} src={item.src} className="h-full" />
         </div>
       ))}
     </div>

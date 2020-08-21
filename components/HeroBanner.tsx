@@ -15,7 +15,7 @@ const HeroBanner = (props: IProps) => {
         {includeContact && <ContactLine />}
       </div>
       <div className="flex-1">
-        <img loading="lazy" src={src} alt={alt} className="w-full" />
+        <img src={src} alt={alt} className="w-full" />
       </div>
     </section>
   )
