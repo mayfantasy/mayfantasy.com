@@ -9,7 +9,7 @@ const ServicesPage = () => {
         .services-page {
         }
       `}</style>
-      <Layout htmlTitle="Services | Mayfantasy">
+      <Layout htmlTitle="Website, E-Commerce, SaaS, and Customized Servcies  | Mayfantasy">
         <div className="services-page">
           {/* Hero Banner */}
           <HeroBanner

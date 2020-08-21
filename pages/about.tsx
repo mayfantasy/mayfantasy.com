@@ -8,7 +8,7 @@ const AboutPage = () => {
         .about-page {
         }
       `}</style>
-      <Layout htmlTitle="About Us | Mayfantasy">
+      <Layout htmlTitle="Top ranked website and e-commerce agency in Toronto | Mayfantasy">
         <div className="about-page">
           {/* Hero Banner */}
           <HeroBanner

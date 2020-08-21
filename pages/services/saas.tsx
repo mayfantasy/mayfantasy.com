@@ -8,7 +8,7 @@ const ServiceSaasPage = () => {
         .service-saas-page {
         }
       `}</style>
-      <Layout htmlTitle="SaaS | Mayfantasy">
+      <Layout htmlTitle="Service as a Software (SaaS) Development | Mayfantasy">
         <div className="service-saas-page">
           {/* Hero Banner */}
           <HeroBanner

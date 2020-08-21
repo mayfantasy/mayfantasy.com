@@ -8,7 +8,7 @@ const ServiceWebsitePage = () => {
         .service-website-page {
         }
       `}</style>
-      <Layout htmlTitle="Website Development | Mayfantasy">
+      <Layout htmlTitle="Website Design, Development and Hosting Service | Mayfantasy">
         <div className="service-website-page">
           {/* Hero Banner */}
           <HeroBanner

@@ -8,7 +8,7 @@ const ServiceECommercePage = () => {
         .service-e-commerce-page {
         }
       `}</style>
-      <Layout htmlTitle="E-Commerce | Mayfantasy">
+      <Layout htmlTitle="E-Commerce Development and Marketing Service | Mayfantasy">
         <div className="service-e-commerce-page">
           {/* Hero Banner */}
           <HeroBanner

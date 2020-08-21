@@ -53,7 +53,7 @@ const ContactPage = () => {
         .contact-page {
         }
       `}</style>
-      <Layout htmlTitle="Contact Us | Mayfantasy">
+      <Layout htmlTitle="Contact Us Now - Let us know what we can help | Mayfantasy">
         <div className="contact-page">
           {/* Hero Banner */}
           <HeroBanner

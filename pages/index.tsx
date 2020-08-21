@@ -16,7 +16,7 @@ const HomePage = () => {
           }
         }
       `}</style>
-      <Layout htmlTitle="Home | Mayfantasy">
+      <Layout htmlTitle="Mayfantasy - Results-driven Creative Digital Agency">
         <div className="home-page">
           {/* Hero Banner */}
           <HeroBanner

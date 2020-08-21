@@ -8,7 +8,7 @@ const ServiceCustomSolutionsPage = () => {
         .service-custom-solutions-page {
         }
       `}</style>
-      <Layout htmlTitle="Custom Solutions | Mayfantasy">
+      <Layout htmlTitle="Custom Solutions for Your Business’es Unique Requirements | Mayfantasy">
         <div className="service-custom-solutions-page">
           {/* Hero Banner */}
           <HeroBanner
