@@ -18,7 +18,7 @@ const ServiceSaasPage = () => {
           <HeroBanner
             title="Service as a Software (SaaS)"
             includeContact
-            src="/service/saas-service.png"
+            src="/service/saas-service.svg"
             alt="Service as a Software Service Banner"
           />
           <br />

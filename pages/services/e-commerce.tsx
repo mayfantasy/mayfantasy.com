@@ -18,7 +18,7 @@ const ServiceECommercePage = () => {
           <HeroBanner
             title="E-Commerce Solutions"
             includeContact
-            src="/service/e-commerce-service.png"
+            src="/service/e-commerce-service.svg"
             alt="E-Commerce Solutions Service Banner"
           />
           <br />

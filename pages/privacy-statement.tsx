@@ -19,7 +19,7 @@ const PrivacyPage = () => {
           <HeroBanner
             title="Privacy Statement"
             includeContact
-            src="/banner/privacy-banner.png"
+            src="/banner/privacy-banner.svg"
             alt="Privacy Statement Banner"
           />
           <br />

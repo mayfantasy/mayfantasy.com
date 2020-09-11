@@ -19,7 +19,7 @@ const Input = (props: IProps) => {
         {isTextarea ? (
           <textarea
             placeholder={placeholder}
-            className="w-full h-32 border-b-2 border-purple-700 outline-none"
+            className="w-full h-32 border-b-2 border-purple-700 outline-none bg-transparent"
             id={id}
             value={value}
             onChange={(e) => onChange(e.target.value)}
@@ -27,7 +27,7 @@ const Input = (props: IProps) => {
         ) : (
           <input
             placeholder={placeholder}
-            className="w-full h-8 border-b-2 border-purple-700 outline-none"
+            className="w-full h-8 border-b-2 border-purple-700 outline-none bg-transparent"
             id={id}
             value={value}
             onChange={(e) => onChange(e.target.value)}

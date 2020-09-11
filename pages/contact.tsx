@@ -63,7 +63,7 @@ const ContactPage = () => {
           <HeroBanner
             title="Let us know what we can help"
             includeContact
-            src="/banner/contact-us-banner.png"
+            src="/banner/contact-us-banner.svg"
             alt="Contact Us Banner"
           />
           <br />

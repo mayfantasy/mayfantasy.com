@@ -76,7 +76,7 @@ const ServiceWebsitePage = () => {
           <HeroBanner
             title="Website Design & Development"
             includeContact
-            src="/service/website-service.png"
+            src="/service/website-service.svg"
             alt="Website Development Service Banner"
           />
           <br />

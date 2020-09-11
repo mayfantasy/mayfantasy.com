@@ -11,7 +11,7 @@ const Services = () => {
     url: string
   }> = [
     {
-      src: '/service/website-service.png',
+      src: '/service/website-service.svg',
       title: 'Website Development',
       subtitle: 'From Design to Development',
       content: (
@@ -26,7 +26,7 @@ const Services = () => {
       url: pageRoutues.serviceWebsitePage.url
     },
     {
-      src: '/service/saas-service.png',
+      src: '/service/saas-service.svg',
       title: 'SaaS',
       subtitle: 'Software as a Service',
       content: (
@@ -39,7 +39,7 @@ const Services = () => {
       url: pageRoutues.serviceSaasPage.url
     },
     {
-      src: '/service/e-commerce-service.png',
+      src: '/service/e-commerce-service.svg',
       title: 'E-Commerce',
       subtitle: 'Everything you need to make sales',
       content: (
@@ -52,7 +52,7 @@ const Services = () => {
       url: pageRoutues.serviceEcommercePage.url
     },
     {
-      src: '/service/custom-service.png',
+      src: '/service/custom-service.svg',
       title: 'Customized',
       subtitle: 'Fully Customized Digital Services',
       content: (

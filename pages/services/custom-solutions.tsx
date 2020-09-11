@@ -18,7 +18,7 @@ const ServiceCustomSolutionsPage = () => {
           <HeroBanner
             title="Custom Solutions"
             includeContact
-            src="/service/custom-service.png"
+            src="/service/custom-service.svg"
             alt="Customized Solutions Service Banner"
           />
           <br />

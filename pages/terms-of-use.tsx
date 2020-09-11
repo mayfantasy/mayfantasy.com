@@ -19,7 +19,7 @@ const TermsPage = () => {
           <HeroBanner
             title="Terms of Use"
             includeContact
-            src="/banner/terms-banner.png"
+            src="/banner/terms-banner.svg"
             alt="Terms of Use Banner"
           />
           <br />
