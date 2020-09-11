@@ -22,7 +22,7 @@ const ServiceECommercePage = () => {
             alt="E-Commerce Solutions Service Banner"
           />
           <br />
-          <article>
+          <article className="container px-4 mx-auto">
             <p>
               Have an idea to sell products on a beautiful web store, Amazon and
               eBay? Our experienced e-commerce experts will walk you through the

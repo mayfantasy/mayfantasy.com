@@ -22,7 +22,7 @@ const ServiceSaasPage = () => {
             alt="Service as a Software Service Banner"
           />
           <br />
-          <article>
+          <article className="container px-4 mx-auto">
             {/* <p>
               Website Presence on the internet has become so important in the
               modern world. Don’t have time to do all the tedious work? Don’t

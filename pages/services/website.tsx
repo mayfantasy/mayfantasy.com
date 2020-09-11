@@ -80,7 +80,7 @@ const ServiceWebsitePage = () => {
             alt="Website Development Service Banner"
           />
           <br />
-          <article>
+          <article className="container px-4 mx-auto">
             <p>
               Presence on the internet has become so important in the modern
               world. That’s why we are here to help. We begin every project with

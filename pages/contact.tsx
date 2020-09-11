@@ -67,7 +67,7 @@ const ContactPage = () => {
             alt="Contact Us Banner"
           />
           <br />
-          <div>
+          <div className="container px-4 mx-auto">
             <div className="lg:w-1/2 m-auto">
               {/* Name */}
               <Input

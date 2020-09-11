@@ -24,7 +24,9 @@ const ServicesPage = () => {
           />
 
           {/* Content */}
-          <Services />
+          <div className="container px-4 mx-auto">
+            <Services />
+          </div>
           <br />
           <br />
           <br />

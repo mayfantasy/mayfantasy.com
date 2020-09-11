@@ -24,7 +24,9 @@ const WorksPage = () => {
           />
 
           {/* Content */}
-          <Works />
+          <div className="container px-4 mx-auto">
+            <Works />
+          </div>
           <br />
           <br />
           <br />

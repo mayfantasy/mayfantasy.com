@@ -36,7 +36,7 @@ const Layout = (props: IProps) => {
         <link rel="canonical" href={pageAbsoluteUrl} />
       </Head>
 
-      <div className="layout container mx-auto px-4">
+      <div className="layout bg-gray-200">
         <Header />
 
         <div>{children}</div>
@@ -58,10 +58,10 @@ const Layout = (props: IProps) => {
           <li>Promote your website on Google My Business</li>
           <li>Pages should not have low word counts</li>
         </ul> */}
-        <div>
+        <div className="container px-4 mx-auto">
           <Footer />
         </div>
-        <div>
+        <div className="container px-4 mx-auto">
           <CopyrightLine />
         </div>
       </div>

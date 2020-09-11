@@ -23,7 +23,7 @@ const AboutPage = () => {
           />
           <br />
           {/* Content */}
-          <article>
+          <article className="container px-4 mx-auto">
             <p>
               Mayfantasy is a full stack digital agency located in Toronto. Our
               young, experienced, and passionate team delivers the world-class

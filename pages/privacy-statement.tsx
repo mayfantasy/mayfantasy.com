@@ -24,7 +24,7 @@ const PrivacyPage = () => {
           />
           <br />
           {/* Content */}
-          <article>
+          <article className="container px-4 mx-auto">
             <p className="mb-3">
               mayfantasy.com is committed to protecting your privacy and
               developing technology that gives you the most powerful and safe

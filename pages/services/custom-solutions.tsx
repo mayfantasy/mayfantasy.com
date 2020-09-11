@@ -22,7 +22,7 @@ const ServiceCustomSolutionsPage = () => {
             alt="Customized Solutions Service Banner"
           />
           <br />
-          <article>
+          <article className="container px-4 mx-auto">
             <p>
               In the digital era, business are relying on more and more digital
               services --- not just for broadcasting your business, but let the

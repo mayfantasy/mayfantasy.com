@@ -29,7 +29,6 @@ const Header = (props: IProps) => {
     <>
       <style jsx>{`
         .header {
-          z-index: 99;
           .header__nav-item {
             border-bottom: 3px solid transparent;
             &:hover {
@@ -38,13 +37,13 @@ const Header = (props: IProps) => {
           }
         }
       `}</style>
-      <Navigation disabled={false}>
+      <Navigation className="z-99" disabled={false}>
         {(position) => {
           const isSticked = position === 'sticky-hidden'
           return (
             <>
               <header
-                className="header flex flex-row justify-between items-center bg-white transition-all duration-300 ease-in-out"
+                className="header bg-white transition-all duration-300 ease-in-out"
                 style={{
                   height: isSticked ? 50 : 78,
                   borderBottom: isSticked
@@ -52,40 +51,42 @@ const Header = (props: IProps) => {
                     : '2px solid transparent'
                 }}
               >
-                <div
-                  className="header__logo transition-all duration-300 ease-in-out"
-                  style={{
-                    width: isSticked ? 60 : 100
-                  }}
-                >
-                  <Link href={pageRoutues.homePage.url}>
-                    <a>
-                      <img
-                        src="/logo.png"
-                        alt="Mayfantasy Logo"
-                        className="w-full transition-all duration-150 ease-in-out"
-                      />
-                    </a>
-                  </Link>
+                <div className="h-full flex flex-row justify-between items-center container px-4 mx-auto">
+                  <div
+                    className="header__logo transition-all duration-300 ease-in-out"
+                    style={{
+                      width: isSticked ? 60 : 100
+                    }}
+                  >
+                    <Link href={pageRoutues.homePage.url}>
+                      <a>
+                        <img
+                          src="/logo.png"
+                          alt="Mayfantasy Logo"
+                          className="w-full transition-all duration-150 ease-in-out"
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                  <nav
+                    className={`header__nav flex flex-row text-sm lg:text-base ${
+                      isSticked ? 'text-sm' : ''
+                    }`}
+                  >
+                    {items.map((item) => (
+                      <div
+                        className="header__nav-item mx-2 lg:mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
+                        key={item.key}
+                      >
+                        <Link href={item.url}>
+                          <a className="transition-all duration-150 ease-in-out">
+                            {item.name}
+                          </a>
+                        </Link>
+                      </div>
+                    ))}
+                  </nav>
                 </div>
-                <nav
-                  className={`header__nav flex flex-row text-sm lg:text-base ${
-                    isSticked ? 'text-sm' : ''
-                  }`}
-                >
-                  {items.map((item) => (
-                    <div
-                      className="header__nav-item mx-2 lg:mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
-                      key={item.key}
-                    >
-                      <Link href={item.url}>
-                        <a className="transition-all duration-150 ease-in-out">
-                          {item.name}
-                        </a>
-                      </Link>
-                    </div>
-                  ))}
-                </nav>
               </header>
             </>
           )

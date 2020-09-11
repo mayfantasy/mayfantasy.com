@@ -24,7 +24,7 @@ const TermsPage = () => {
           />
           <br />
           {/* Content */}
-          <article>
+          <article className="container px-4 mx-auto">
             <h2 className="mb-2">
               <strong>AGREEMENT BETWEEN USER AND mayfantasy.com</strong>
             </h2>
