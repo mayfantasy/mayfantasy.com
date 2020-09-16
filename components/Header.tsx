@@ -75,11 +75,11 @@ const Header = (props: IProps) => {
                   >
                     {items.map((item) => (
                       <div
-                        className="header__nav-item mx-2 lg:mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
+                        className="header__nav-item mx-1 md:mx-2 lg:mx-4 transition-all duration-150 ease-in-out text-gray-600 hover:text-black"
                         key={item.key}
                       >
                         <Link href={item.url}>
-                          <a className="transition-all duration-150 ease-in-out">
+                          <a className="transition-all duration-150 ease-in-out text-xs lg:text-base">
                             {item.name}
                           </a>
                         </Link>

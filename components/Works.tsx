@@ -29,9 +29,13 @@ const Works = () => {
       name: 'Monfent CMS',
       src: '/screenshot/monfent-cms-screenshot.png'
     },
+    // {
+    //   name: 'MF Digital Consult',
+    //   src: '/screenshot/mayfantasy-screenshot.png'
+    // },
     {
-      name: 'MF Digital Consult',
-      src: '/screenshot/mayfantasy-screenshot.png'
+      name: 'ProPromo Displays',
+      src: '/screenshot/propromo-screenshot.jpg'
     }
   ]
 
@@ -59,7 +63,8 @@ const Works = () => {
           <div
             key={item.name}
             className={`
-            w-1/4
+            w-1/2
+            lg:w-1/4
             works__item
             transition-all
             duration-300
@@ -68,14 +73,6 @@ const Works = () => {
             overflow-hidden
             text-center
             py-2
-            ${
-              (index + 1) % 4 === 1
-                ? 'pl-2 pr-1'
-                : (index + 1) % 4 === 0
-                ? 'pl-1 pr-2'
-                : 'px-1'
-            }
-            bg-black
             `}
           >
             <div className="relative">
@@ -84,16 +81,16 @@ const Works = () => {
                 alt={item.name}
                 className="w-full duration-300 ease-in-out cursor-pointer"
               />
-              <div className="w-full h-full top-0 left-0 absolute hidden works__item-name text-white text-2xl">
+              <div className="w-full h-full top-0 left-0 absolute hidden works__item-name text-white">
                 {item.name}
               </div>
             </div>
           </div>
         ))}
-        <div className="w-1/4 works__item">
+        <div className="w-1/2 lg:w-1/4 works__item">
           <Link href={pageRoutues.contactPage.url}>
             <div className="h-full w-full bg-black flex justify-center items-center cursor-pointer">
-              <div className="text-white flex items-center text-xl">
+              <div className="text-white flex items-center">
                 <a>
                   <span className="mr-4">Your Project</span>
                   <FontAwesomeIcon icon={faPlus} />

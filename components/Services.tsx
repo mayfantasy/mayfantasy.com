@@ -27,26 +27,26 @@ const Services = () => {
     },
     {
       src: '/service/saas-service.svg',
-      title: 'SaaS',
+      title: 'SaaS Development',
       subtitle: 'Software as a Service',
       content: (
         <p>
-          Need a handy business application to accelerate your daily work and
-          save the labour? Our professionals can help you build the modern and
-          functional services right for your business.
+          Need a handy business application to accelerate your daily work or
+          resell? Building robust, multi-tenant Software-as-a-Service
+          applications is our specialty, we are here to help.
         </p>
       ),
       url: pageRoutues.serviceSaasPage.url
     },
     {
       src: '/service/e-commerce-service.svg',
-      title: 'E-Commerce',
-      subtitle: 'Everything you need to make sales',
+      title: 'E-Commerce Solutions',
+      subtitle: 'Everything you need to earn online',
       content: (
         <p>
-          Have products ready to sell on a beautiful web store, Amazon and eBay?
-          Our experienced e-commerce experts will walk you through the whole
-          process and help you build a solid business.
+          Start selling products and services on a beautiful and powerful web
+          store now. Our experienced experts will walk you through the whole
+          e-commerce process and help you build a solid business.
         </p>
       ),
       url: pageRoutues.serviceEcommercePage.url

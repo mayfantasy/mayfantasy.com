@@ -1,5 +1,6 @@
 import Layout from 'components/Layout'
 import HeroBanner from 'components/HeroBanner'
+import Tag from 'components/Tag'
 
 const ServiceSaasPage = () => {
   return (
@@ -11,12 +12,12 @@ const ServiceSaasPage = () => {
       <Layout
         pageAbsoluteUrl="https://www.mayfantasy.com/services/saas/"
         htmlTitle="Service as a Software (SaaS) Development | Mayfantasy"
-        htmlDescription="Our team is well experienced in the SaaS industry. From Strategic Planning, Requirement Gathering, to Grapic Design, Development, and to the final Test and Deployment, we provide the highest industrial level service."
+        htmlDescription="Our team is well experienced in the SaaS industry. From Strategic Planning, Requirement Gathering, to UX Design, Development, and to the final Test and Deployment, we provide the highest industrial level service."
       >
         <div className="service-saas-page">
           {/* Hero Banner */}
           <HeroBanner
-            title="Service as a Software (SaaS)"
+            title="Service as a Software (SaaS) Development"
             includeContact
             src="/service/saas-service.svg"
             alt="Service as a Software Service Banner"
@@ -32,34 +33,52 @@ const ServiceSaasPage = () => {
             <br /> */}
             <div className="lg:flex">
               <div className="flex-1 pr-8">
-                <h2 className="text-2xl">
+                <h2 className="text-2xl mb-2">
                   <strong>What is SaaS?</strong>
                 </h2>
                 <p>
                   SaaS (Software as a Service), also known as Web-based
                   software, is a modern software model that allows us handle
-                  almost everything online, just like what we did on our
-                  computers in the old times. The advantage is obvious:
-                  everything we see is update-to-date, we don't need to worry
-                  about software update and data syncronization, the cloud is
-                  handling everything for us.
+                  almost everything online. Everything we see is update-to-date,
+                  we don't need to worry about software update and data
+                  syncronization, the cloud is handling everything for us.
                 </p>
                 <br />
               </div>
               <div className="flex-1">
-                <h2 className="text-2xl">
+                <h2 className="text-2xl mb-2">
                   <strong>Our Expertise</strong>
                 </h2>
                 <p>
-                  Our team is well experienced in the SaaS industry. From
-                  Strategic Planning, Requirement Gathering, to Grapic Design,
-                  Development, and to the final Test and Deployment, we will
-                  provide the most professional services and use industrial
-                  leading tools and cutting edge technologies to keep our work
-                  at the highest industrial level.
+                  Building robust, multi-tenant Software-as-a-Service
+                  applications is our specialty. From strategic planning, to UX
+                  design and Development, we provide the most professional
+                  services with our industrial leading technologies.
                 </p>
                 <br />
               </div>
+            </div>
+            <div>
+              <h2 className="text-2xl mb-2">
+                <strong>Technology Stack</strong>
+              </h2>
+              <p>
+                We have experiece with projects based on these cutting edge
+                technologies: <Tag>Nodejs</Tag>
+                <Tag>React.js</Tag>
+                <Tag>Angular 8+</Tag>
+                <Tag>GraphQL</Tag>
+                <Tag>REST API</Tag>
+                <Tag>MongoDB</Tag>
+                <Tag>FaunaDB</Tag>
+                <Tag>MySQL</Tag>
+                <Tag>PostgreSQL</Tag>
+                <Tag>Next.js</Tag>
+                <Tag>Headless CMS</Tag>
+                <Tag>Shopify</Tag>
+                <Tag>Liquid</Tag>
+                <Tag>Google Cloud Platform</Tag> and more.
+              </p>
             </div>
           </article>
           <br />

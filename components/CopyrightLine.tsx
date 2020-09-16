@@ -5,7 +5,7 @@ const CopyrightLine = () => {
   return (
     <div className="py-4 border-t-1 border-grey-600 text-center text-xs">
       <span className="mr-4">
-        Copyright @Mayfantasy Co. All Rights Reserved.
+        © 2020 H.Y & Mayfantasy Co. All Rights Reserved.
       </span>
       <Link href={pageRoutues.privacyPage.url}>
         <a className="mr-4 text-gray-600">Privacy Statement</a>

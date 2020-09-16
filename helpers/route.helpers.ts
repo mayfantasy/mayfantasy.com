@@ -32,12 +32,12 @@ export const pageRoutues = {
     url: '/services/custom-solutions'
   },
   aboutPage: {
-    name: 'About Us',
+    name: 'About',
     key: 'about',
     url: '/about'
   } as INavItem,
   contactPage: {
-    name: 'Contact Us',
+    name: 'Contact',
     key: 'contact',
     url: '/contact'
   },

@@ -18,6 +18,7 @@ const WorksPage = () => {
           {/* Hero Banner */}
           <HeroBanner
             title="Our Work"
+            tagline="Form more details about our previous work or quote for a new project, please contact us"
             includeContact
             src="/banner/works-banner.svg"
             alt="Works Banner"

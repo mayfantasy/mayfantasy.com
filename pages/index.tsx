@@ -25,7 +25,7 @@ const HomePage = () => {
           {/* Hero Banner */}
           <HeroBanner
             title="Results-driven Creative Digital Agency"
-            tagline="We build modern websites, web applications and e-commerce products that help you shine.We build modern websites, web applications and e-commerce products that help you shine."
+            tagline="We build modern websites, web applications and e-commerce products that help you shine."
             includeContact
             src="/hero-image.png"
             alt="Home Page Banner"
@@ -44,8 +44,12 @@ const HomePage = () => {
               <strong>
                 websites, e-commerce products and web applications (SaaS)
               </strong>
+              .
             </p>
           </section>
+
+          <br />
+          <br />
 
           {/* Services */}
           <section className="container px-4 mx-auto">
