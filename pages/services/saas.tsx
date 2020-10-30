@@ -1,6 +1,7 @@
 import Layout from 'components/Layout'
 import HeroBanner from 'components/HeroBanner'
 import Tag from 'components/Tag'
+import OtherServicesButton from 'components/OtherServicesButton'
 
 const ServiceSaasPage = () => {
   return (
@@ -81,6 +82,11 @@ const ServiceSaasPage = () => {
               </p>
             </div>
           </article>
+          <br />
+          <br />
+          <div className="container px-4 mx-auto text-center text-center">
+            <OtherServicesButton />
+          </div>
           <br />
           <br />
         </div>

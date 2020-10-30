@@ -2,6 +2,9 @@ import Layout from 'components/Layout'
 import HeroBanner from 'components/HeroBanner'
 import { Steps } from 'antd'
 import { StepProps } from 'antd/lib/steps'
+import Link from 'next/link'
+import { pageRoutues } from 'helpers/route.helpers'
+import OtherServicesButton from 'components/OtherServicesButton'
 
 const { Step } = Steps
 
@@ -98,6 +101,12 @@ const ServiceWebsitePage = () => {
               ))}
             </Steps>
           </article>
+          <br />
+          <br />
+          <div className="container px-4 mx-auto">
+            <OtherServicesButton />
+          </div>
+
           <br />
           <br />
         </div>

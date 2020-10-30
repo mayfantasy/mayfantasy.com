@@ -1,5 +1,6 @@
 import Layout from 'components/Layout'
 import HeroBanner from 'components/HeroBanner'
+import OtherServicesButton from 'components/OtherServicesButton'
 
 const ServiceCustomSolutionsPage = () => {
   return (
@@ -35,6 +36,11 @@ const ServiceCustomSolutionsPage = () => {
             </p>
             <p>Tell us your dream now and let us help you out.</p>
           </article>
+          <br />
+          <br />
+          <div className="container px-4 mx-auto text-center">
+            <OtherServicesButton />
+          </div>
           <br />
           <br />
           <br />

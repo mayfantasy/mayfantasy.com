@@ -1,5 +1,6 @@
 import Layout from 'components/Layout'
 import HeroBanner from 'components/HeroBanner'
+import OtherServicesButton from 'components/OtherServicesButton'
 
 const ServiceECommercePage = () => {
   return (
@@ -39,6 +40,7 @@ const ServiceECommercePage = () => {
                   large inventory, orders and payment gateways.
                 </p>
               </div>
+              <br />
               <div className="flex-1">
                 <h2 className="text-2xl mb-2">
                   <strong>Marketplaces</strong>
@@ -57,6 +59,11 @@ const ServiceECommercePage = () => {
               </div>
             </div>
           </article>
+          <br />
+          <br />
+          <div className="container px-4 mx-auto text-center">
+            <OtherServicesButton />
+          </div>
           <br />
           <br />
         </div>
