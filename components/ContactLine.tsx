@@ -11,10 +11,10 @@ const ContactLine = (props: IProps) => {
         <FontAwesomeIcon icon={faEnvelope} className="mr-3" />
         <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
       </div>
-      <div className="text-gray-600">
+      {/* <div className="text-gray-600">
         <FontAwesomeIcon icon={faPhone} className="mr-3" />
         <a href={`tel:${PHONE}`}>{PHONE}</a>
-      </div>
+      </div> */}
     </div>
   )
 }
