@@ -3,10 +3,12 @@ const ServicePartners = () => {
     { name: 'Google Cloud Logo', src: '/logo/google-cloud-logo.png' }, // Google Cloud
     { name: 'Vercel Logo', src: '/logo/vercel-logo.png' }, // Vercel
     { name: 'Nextjs Logo', src: '/logo/next-logo.png' }, // NextJS
+    { name: 'GraphQL Logo', src: '/logo/graphql-logo.png' }, // NextJS
     { name: 'Reactjs Logo', src: '/logo/react-logo.png' }, // React
     { name: 'FaunaDB Logo', src: '/logo/faunadb-logo.png' }, // FunaDB
     { name: 'MongoDB logo', src: '/logo/mongo-logo.png' }, // MongoDB
     { name: 'Shopify Logo', src: '/logo/shopify-logo.png' }, // Shopify
+    { name: 'BigCommerce Logo', src: '/logo/bigcommerce-logo.png' }, // BigCommerce
     { name: 'Mailchimp Logo', src: '/logo/mailchimp-logo.png' }, // Mailchimp
     { name: 'Zoho Logo', src: '/logo/zoho-logo.png' }, // Zoho
     { name: 'Adobe Logo', src: '/logo/adobe-logo.png' } // Adobe

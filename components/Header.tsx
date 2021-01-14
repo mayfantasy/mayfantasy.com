@@ -4,6 +4,7 @@ import { css, jsx } from '@emotion/core'
 import { INavItem } from 'types/route.types'
 import { pageRoutues } from 'helpers/route.helpers'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface IProps {}
 const Header = (props: IProps) => {

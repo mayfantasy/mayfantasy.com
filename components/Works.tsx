@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { pageRoutues } from 'helpers/route.helpers'
+import Image from 'next/image'
 
 const Works = () => {
   const items: { name: string; src: string }[] = [
@@ -10,8 +11,8 @@ const Works = () => {
       src: '/screenshot/veltro-screenshot.png'
     },
     {
-      name: 'Ted A Car',
-      src: '/screenshot/tedacar-screenshot.png'
+      name: 'Dora Stars Gift Store',
+      src: '/screenshot/dora-stars-screenshot.png'
     },
     {
       name: 'City High School',
@@ -26,16 +27,12 @@ const Works = () => {
       src: '/screenshot/harley-hardy-screenshot.png'
     },
     {
+      name: 'Pro Promo',
+      src: '/screenshot/propromo-screenshot.png'
+    },
+    {
       name: 'Monfent CMS',
       src: '/screenshot/monfent-cms-screenshot.png'
-    },
-    // {
-    //   name: 'MF Digital Consult',
-    //   src: '/screenshot/mayfantasy-screenshot.png'
-    // },
-    {
-      name: 'ProPromo Displays',
-      src: '/screenshot/propromo-screenshot.jpg'
     }
   ]
 
@@ -76,7 +73,9 @@ const Works = () => {
             `}
           >
             <div className="relative">
-              <img
+              <Image
+                width={1000}
+                height={1167}
                 src={item.src}
                 alt={item.name}
                 className="w-full duration-300 ease-in-out cursor-pointer"

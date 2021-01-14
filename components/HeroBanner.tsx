@@ -1,5 +1,6 @@
 import ContactLine from './ContactLine'
 import ShapesParticles from './Particles/ShapesParticles'
+import Image from 'next/image'
 
 interface IProps {
   title: string
@@ -23,7 +24,13 @@ const HeroBanner = (props: IProps) => {
           {includeContact && <ContactLine />}
         </div>
         <div className="w-full lg:w-2/3 mb-4">
-          <img src={src} alt={alt} className="w-full" />
+          <Image
+            width={2210}
+            height={1546}
+            src={src}
+            alt={alt}
+            className="w-full"
+          />
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 interface IProps {
   src: string
   alt: string
@@ -14,7 +15,13 @@ const ContentBlock = (props: IProps) => {
           right ? 'lg:order-2' : 'lg:order-1'
         }`}
       >
-        <img src={src} alt={alt} className="w-full" />
+        <Image
+          width={900}
+          height={480}
+          src={src}
+          alt={alt}
+          className="w-full"
+        />
       </div>
       <div
         className={`flex-1  ${!right ? 'lg:pl-10' : ''} ${
