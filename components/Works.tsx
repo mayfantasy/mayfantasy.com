@@ -42,7 +42,7 @@ const Works = () => {
         .works {
           .works__item {
             &:hover {
-              img {
+              .works__image {
                 transform: scale(1.2, 1.2);
                 filter: brightness(0.3);
               }
@@ -73,13 +73,15 @@ const Works = () => {
             `}
           >
             <div className="relative">
-              <Image
-                width={1000}
-                height={1167}
-                src={item.src}
-                alt={item.name}
-                className="w-full duration-300 ease-in-out cursor-pointer"
-              />
+              <div className="works__image duration-300 ease-in-out ">
+                <Image
+                  width={1000}
+                  height={1167}
+                  src={item.src}
+                  alt={item.name}
+                  className="w-full cursor-pointer"
+                />
+              </div>
               <div className="w-full h-full top-0 left-0 absolute hidden works__item-name text-white">
                 {item.name}
               </div>
