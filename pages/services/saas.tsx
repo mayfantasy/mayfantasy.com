@@ -77,6 +77,7 @@ const ServiceSaasPage = () => {
                 <Tag>Next.js</Tag>
                 <Tag>Headless CMS</Tag>
                 <Tag>Shopify</Tag>
+                <Tag>BigCommerce</Tag>
                 <Tag>Liquid</Tag>
                 <Tag>Google Cloud Platform</Tag> and more.
               </p>

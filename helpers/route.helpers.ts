@@ -55,5 +55,15 @@ export const pageRoutues = {
     name: 'Terms of Use',
     key: 'terms',
     url: '/terms-of-use'
+  },
+  monfentCMS: {
+    name: 'CMS',
+    key: 'monfent',
+    url: 'https://cms.monfent.com/'
+  },
+  mfToolsPage: {
+    name: 'Tools',
+    key: 'mf-tools',
+    url: 'https://tools.mayfantasy.com'
   }
 }

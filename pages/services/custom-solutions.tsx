@@ -26,8 +26,8 @@ const ServiceCustomSolutionsPage = () => {
           <article className="container px-4 mx-auto">
             <p>
               In the digital era, business are relying on more and more digital
-              services --- not just for broadcasting your business, but let the
-              latest technology help you build the long lasting empire.
+              services --- not just shouting out for your business, but let the
+              latest technology that helps you build the long lasting empire.
             </p>
             <p>
               If you have a dream, we can help. Our digital consultants are

@@ -30,14 +30,15 @@ const ServiceECommercePage = () => {
                   <strong>Web Store</strong>
                 </h2>
                 <p>
-                  By building your product's official website beautifully and
-                  functionally, customers get impressed by your brand and
-                  willing to pay. A well planned web store is definitely a solid
-                  base of your e-commerce business.
+                  By showcasing a beautiful and functional official product
+                  website, customers get impressed by your brand and willing to
+                  pay. A well planned web store is definitely a solid base of
+                  your e-commerce business.
                 </p>
                 <p>
-                  Thanks to the powerful system of Shopify, it's easy to handle
-                  large inventory, orders and payment gateways.
+                  Thanks to the powerful e-commerce systems of Shopify and
+                  BigCommerce, it's easy to handle large inventory, orders and
+                  payment gateways.
                 </p>
               </div>
               <br />
@@ -48,12 +49,13 @@ const ServiceECommercePage = () => {
                 <p>
                   If you’re in the eCommerce industry, selling on Amazon or eBay
                   has become the best bet for maximizing your reach and,
-                  ultimately, your revenue.
+                  ultimately, your profit.
                 </p>
                 <p>
-                  We will help you add new products to the Amazon catalogue
-                  whenever you want. By using Fulfillment by Amazon, we take
-                  care of customer service, product shipping, and all logistics.
+                  We will help you create new products to the Amazon catalogue
+                  whenever you want. We will guide you through, or even take
+                  care of product sourcing, logistics, customer service, digital
+                  marketing and product shipping, you name it.
                 </p>
                 <br />
               </div>

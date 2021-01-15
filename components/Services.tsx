@@ -44,9 +44,10 @@ const Services = () => {
       subtitle: 'Everything you need to earn online',
       content: (
         <p>
-          Start selling products and services on a beautiful and powerful web
-          store now. Our experienced experts will walk you through the whole
-          e-commerce process and help you build a solid business.
+          Start selling products and services on a beautiful web store now, or
+          Amazon and eBay. No metter which, our experienced experts will walk
+          you through the whole e-commerce process and help you build a solid
+          business.
         </p>
       ),
       url: pageRoutues.serviceEcommercePage.url

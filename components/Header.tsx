@@ -23,7 +23,9 @@ const Header = (props: IProps) => {
       ]
     },
     pageRoutues.worksPage,
-    pageRoutues.contactPage
+    pageRoutues.contactPage,
+    pageRoutues.monfentCMS,
+    pageRoutues.mfToolsPage
   ]
 
   return (
